@@ -7,9 +7,9 @@ public class UserTest {
     @Test
     public void testUserCreation() {
         Subject subject = Subject.OOP;
-        User user = new User("Ridika Naznin", "IUT", "CSE", subject);
+        User user = new User("Afrin Jahan Era", "IUT", "CSE", subject);
 
-        assertEquals("Ridika Naznin", user.getName());
+        assertEquals("Afrin Jahan Era", user.getName());
         assertEquals("IUT", user.getUniversity());
         assertEquals("CSE", user.getDepartment());
         assertEquals(subject, user.getSubject());

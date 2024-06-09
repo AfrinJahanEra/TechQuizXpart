@@ -11,7 +11,7 @@ public class QuizTest {
 
     @Before
     public void setUp() {
-        user = new User("Ridika Naznin", "IUT", "CSE", Subject.OOP);
+        user = new User("Afrin Jahan Era", "IUT", "CSE", Subject.OOP);
         quiz = new Quiz(user);
     }
     @Test
