@@ -1,6 +1,6 @@
 What is the unit of electrical power?|Ampere|Volt|Watt|Ohm|Watt|Power System
-Which law states that current is directly proportional to voltage and inversely proportional to resistance?|Faraday's Law|Lenz's Law|Ohm's Law|Kirchhoff's Law|Ohm's Law|Circuit Theory  
-What is the SI unit of electrical resistance?|Volt|Ampere|Ohm|Watt|Ohm|Circuit Theory  
+Which law states that current is directly proportional to voltage and inversely proportional to resistance?|Faraday's Law|Lenz's Law|Ohm's Law|Kirchhoff's Law|Ohm's Law|Electrical Circuit 
+What is the SI unit of electrical resistance?|Volt|Ampere|Ohm|Watt|Ohm|Electrical Circuit 
 Which device converts mechanical energy into electrical energy?|Motor|Generator|Transformer|Rectifier|Generator|Electrical Machines  
 Which type of power plant has the highest efficiency?|Thermal|Hydroelectric|Nuclear|Solar|Nuclear|Power Generation  
 What is the primary fuel used in a gas turbine power plant?|Coal|Natural Gas|Diesel|Uranium|Natural Gas|Power Generation  

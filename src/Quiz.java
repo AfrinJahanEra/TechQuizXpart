@@ -21,11 +21,18 @@ public class Quiz {
     }
 
     public Question getNextQuestion() {
-        return questions.get(currentQuestionIndex++);
+        if (!hasMoreQuestions()) {
+            return null;
+        }
+        Question question = questions.get(currentQuestionIndex);
+        currentQuestionIndex++;
+        return question;
     }
 
     public void submitAnswer(String answer) {
-        if (!hasMoreQuestions()) return;
+        if (currentQuestionIndex == 0 || currentQuestionIndex > questions.size()) {
+            return;
+        }
         
         Question currentQuestion = questions.get(currentQuestionIndex - 1);
         if (answer == null || answer.trim().isEmpty()) {
@@ -40,7 +47,7 @@ public class Quiz {
     }
     
     public double getScore() {
-        return score;
+        return (score / questions.size()) * 100; // Return as percentage
     }
     
     public User getUser() {
@@ -53,5 +60,18 @@ public class Quiz {
     
     public int getTotalQuestions() {
         return questions.size();
+    }
+
+    public Question getCurrentQuestion() {
+        if (currentQuestionIndex < 0 || currentQuestionIndex >= questions.size()) {
+            return null;
+        }
+        return questions.get(currentQuestionIndex);
+    }
+    
+    public void moveToNextQuestion() {
+        if (hasMoreQuestions()) {
+            currentQuestionIndex++;
+        }
     }
 }

@@ -169,21 +169,53 @@ public class TechQuizXPart {
                     subjectComboBox.addItem(Subject.OOP);
                     subjectComboBox.addItem(Subject.DSA);
                     subjectComboBox.addItem(Subject.AI);
+                    subjectComboBox.addItem(Subject.DATABASE_MANAGEMENT_SYSTEMS);
+                    subjectComboBox.addItem(Subject.OPERATING_SYSTEMS);
+                    subjectComboBox.addItem(Subject.COMPUTER_NETWORKS);
+                    subjectComboBox.addItem(Subject.DIGITAL_ELECTRONICS);
                     break;
+
                 case "EEE":
                     subjectComboBox.addItem(Subject.ELECTRICAL_CIRCUIT);
                     subjectComboBox.addItem(Subject.POWER_SYSTEM);
-                    subjectComboBox.addItem(Subject.DLD);
+                    subjectComboBox.addItem(Subject.ELECTRICAL_MACHINES);
+                    subjectComboBox.addItem(Subject.POWER_GENERATION);
+                    subjectComboBox.addItem(Subject.POWER_TRANSMISSION);
+                    subjectComboBox.addItem(Subject.ELECTRONIC_DEVICES);
+                    subjectComboBox.addItem(Subject.POWER_ELECTRONICS);
+                    subjectComboBox.addItem(Subject.DIGITAL_ELECTRONICS);
+                    subjectComboBox.addItem(Subject.CONTROL_SYSTEMS);
+                    subjectComboBox.addItem(Subject.ELECTRICAL_MEASUREMENTS);
+                    subjectComboBox.addItem(Subject.RENEWABLE_ENERGY);
+                    subjectComboBox.addItem(Subject.TRANSFORMERS);
                     break;
+
                 case "CE":
                     subjectComboBox.addItem(Subject.SOIL_MECHANICS);
                     subjectComboBox.addItem(Subject.SOLID_MECHANICS);
                     subjectComboBox.addItem(Subject.GEOLOGY);
-                    break;
-                case "ME":
+                    subjectComboBox.addItem(Subject.FOUNDATION_ENGINEERING);
+                    subjectComboBox.addItem(Subject.CONCRETE_TECHNOLOGY);
+                    subjectComboBox.addItem(Subject.STRUCTURAL_ENGINEERING);
+                    subjectComboBox.addItem(Subject.BUILDING_MATERIALS);
+                    subjectComboBox.addItem(Subject.SURVEYING);
+                    subjectComboBox.addItem(Subject.ENVIRONMENTAL_ENGINEERING);
+                    subjectComboBox.addItem(Subject.TRANSPORTATION_ENGINEERING);
+                    subjectComboBox.addItem(Subject.WATER_SUPPLY_ENGINEERING);
+                    subjectComboBox.addItem(Subject.HYDRAULICS);
                     subjectComboBox.addItem(Subject.FLUID_MECHANICS);
                     subjectComboBox.addItem(Subject.STRUCTURAL_DYNAMICS);
+                    break;
+
+                case "ME":
                     subjectComboBox.addItem(Subject.THERMODYNAMICS);
+                    subjectComboBox.addItem(Subject.HEAT_TRANSFER);
+                    subjectComboBox.addItem(Subject.FLUID_MECHANICS);
+                    subjectComboBox.addItem(Subject.STRENGTH_OF_MATERIALS);
+                    subjectComboBox.addItem(Subject.MANUFACTURING);
+                    subjectComboBox.addItem(Subject.MACHINE_DESIGN);
+                    subjectComboBox.addItem(Subject.THEORY_OF_MACHINES);
+                    subjectComboBox.addItem(Subject.AUTOMOBILE_ENGINEERING);
                     break;
             }
         });
@@ -325,106 +357,134 @@ public class TechQuizXPart {
         frame.getContentPane().removeAll();
         frame.setLayout(new BorderLayout());
         frame.getContentPane().setBackground(BACKGROUND_COLOR);
-
-        if (currentQuiz.hasMoreQuestions()) {
-            Question question = currentQuiz.getNextQuestion();
-
-            // Main Content Panel
-            JPanel contentPanel = new JPanel(new BorderLayout());
-            contentPanel.setBackground(BACKGROUND_COLOR);
-            contentPanel.setBorder(new EmptyBorder(30, 50, 30, 50));
-
-            // Header with progress
-            JPanel headerPanel = new JPanel(new BorderLayout());
-            headerPanel.setOpaque(false);
-
-            JLabel progressLabel = new JLabel(
-                    String.format("Question %d of %d",
-                            currentQuiz.getCurrentQuestionIndex(),
-                            currentQuiz.getTotalQuestions()),
-                    SwingConstants.LEFT);
-            progressLabel.setFont(SUBTITLE_FONT);
-            progressLabel.setForeground(new Color(0, 0, 0, 150));
-
-            JProgressBar progressBar = new JProgressBar(0, currentQuiz.getTotalQuestions());
-            progressBar.setValue(currentQuiz.getCurrentQuestionIndex());
-            progressBar.setForeground(PRIMARY_COLOR);
-            progressBar.setBackground(new Color(230, 230, 230));
-            progressBar.setBorderPainted(false);
-            progressBar.setStringPainted(false);
-            progressBar.setPreferredSize(new Dimension(0, 6));
-
-            headerPanel.add(progressLabel, BorderLayout.NORTH);
-            headerPanel.add(progressBar, BorderLayout.CENTER);
-            headerPanel.setBorder(new EmptyBorder(0, 0, 20, 0));
-
-            // Question Panel
-            JPanel questionPanel = new JPanel(new BorderLayout());
-            questionPanel.setOpaque(false);
-            questionPanel.setBorder(new EmptyBorder(20, 0, 30, 0));
-
-            JTextArea questionArea = new JTextArea(question.getQuestion());
-            questionArea.setEditable(false);
-            questionArea.setWrapStyleWord(true);
-            questionArea.setLineWrap(true);
-            questionArea.setFont(QUESTION_FONT);
-            questionArea.setForeground(TEXT_COLOR);
-            questionArea.setOpaque(false);
-            questionArea.setBorder(new EmptyBorder(10, 10, 10, 10));
-
-            questionPanel.add(questionArea, BorderLayout.CENTER);
-
-            // Options Panel
-            JPanel optionsPanel = new JPanel(new GridLayout(4, 1, 10, 10));
-            optionsPanel.setOpaque(false);
-            optionsPanel.setBorder(new EmptyBorder(0, 0, 20, 0));
-
-            ButtonGroup group = new ButtonGroup();
-            for (String option : question.getOptions()) {
-                JRadioButton optionButton = createOptionButton(option);
-                group.add(optionButton);
-                optionsPanel.add(optionButton);
-            }
-
-            // Timer Panel
-            JPanel timerPanel = new JPanel(new BorderLayout());
-            timerPanel.setOpaque(false);
-
-            JProgressBar timerBar = new JProgressBar(0, 10);
-            timerBar.setValue(10);
-            timerBar.setForeground(ACCENT_COLOR);
-            timerBar.setBackground(new Color(230, 230, 230));
-            timerBar.setBorderPainted(false);
-            timerBar.setStringPainted(false);
-            timerBar.setPreferredSize(new Dimension(0, 6));
-
-            timerPanel.add(timerBar, BorderLayout.CENTER);
-
-            // Add panels to content
-            contentPanel.add(headerPanel, BorderLayout.NORTH);
-            contentPanel.add(questionPanel, BorderLayout.CENTER);
-            contentPanel.add(optionsPanel, BorderLayout.CENTER);
-            contentPanel.add(timerPanel, BorderLayout.SOUTH);
-
-            frame.add(contentPanel, BorderLayout.CENTER);
-            frame.revalidate();
-            frame.repaint();
-
-            // Timer logic
-            Timer timer = new Timer(1000, e -> {
-                int count = timerBar.getValue() - 1;
-                timerBar.setValue(count);
-                if (count == 0) {
-                    ((Timer) e.getSource()).stop();
-                    String selectedOption = group.getSelection() != null ? group.getSelection().getActionCommand() : "";
-                    currentQuiz.submitAnswer(selectedOption);
-                    showQuizQuestion();
-                }
-            });
-            timer.start();
-        } else {
+    
+        if (!currentQuiz.hasMoreQuestions()) {
             showQuizResult();
+            return;
         }
+    
+        Question question = currentQuiz.getCurrentQuestion();
+        if (question == null) {
+            showErrorDialog("Error loading question.");
+            return;
+        }
+    
+        // Main Content Panel
+        JPanel contentPanel = new JPanel(new BorderLayout());
+        contentPanel.setBackground(BACKGROUND_COLOR);
+        contentPanel.setBorder(new EmptyBorder(30, 50, 30, 50));
+    
+        // Header Panel with Progress
+        JPanel headerPanel = new JPanel(new BorderLayout());
+        headerPanel.setOpaque(false);
+    
+        JLabel progressLabel = new JLabel(
+                String.format("Question %d of %d",
+                        currentQuiz.getCurrentQuestionIndex() + 1,
+                        currentQuiz.getTotalQuestions()),
+                SwingConstants.LEFT);
+        progressLabel.setFont(SUBTITLE_FONT);
+        progressLabel.setForeground(new Color(0, 0, 0, 150));
+    
+        JProgressBar progressBar = new JProgressBar(0, currentQuiz.getTotalQuestions());
+        progressBar.setValue(currentQuiz.getCurrentQuestionIndex() + 1);
+        progressBar.setForeground(PRIMARY_COLOR);
+        progressBar.setBackground(new Color(230, 230, 230));
+        progressBar.setBorderPainted(false);
+        progressBar.setStringPainted(false);
+        progressBar.setPreferredSize(new Dimension(0, 6));
+    
+        headerPanel.add(progressLabel, BorderLayout.NORTH);
+        headerPanel.add(progressBar, BorderLayout.CENTER);
+        headerPanel.setBorder(new EmptyBorder(0, 0, 20, 0));
+    
+        // Question Panel
+        JPanel questionPanel = new JPanel(new BorderLayout());
+        questionPanel.setOpaque(false);
+        questionPanel.setBorder(new EmptyBorder(20, 0, 30, 0));
+    
+        JTextArea questionArea = new JTextArea(question.getQuestion());
+        questionArea.setEditable(false);
+        questionArea.setWrapStyleWord(true);
+        questionArea.setLineWrap(true);
+        questionArea.setFont(QUESTION_FONT);
+        questionArea.setForeground(TEXT_COLOR);
+        questionArea.setOpaque(false);
+        questionArea.setBorder(new EmptyBorder(10, 10, 10, 10));
+        questionPanel.add(new JScrollPane(questionArea), BorderLayout.CENTER);
+    
+        // Options Panel
+        JPanel optionsPanel = new JPanel();
+        optionsPanel.setOpaque(false);
+        optionsPanel.setLayout(new BoxLayout(optionsPanel, BoxLayout.Y_AXIS));
+        optionsPanel.setBorder(new EmptyBorder(0, 20, 20, 20));
+    
+        ButtonGroup group = new ButtonGroup();
+        for (String option : question.getOptions()) {
+            JRadioButton optionButton = createOptionButton(option);
+            group.add(optionButton);
+            optionButton.setAlignmentX(Component.LEFT_ALIGNMENT);
+            optionsPanel.add(optionButton);
+            optionsPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        }
+    
+        // Submit Button
+        JButton submitButton = createStyledButton("SUBMIT", PRIMARY_COLOR, 200, 40);
+        submitButton.setAlignmentX(Component.LEFT_ALIGNMENT);
+        submitButton.addActionListener(e -> {
+            String selectedOption = group.getSelection() != null ? 
+                                 group.getSelection().getActionCommand() : "";
+            currentQuiz.submitAnswer(selectedOption);
+            currentQuiz.moveToNextQuestion();
+            showQuizQuestion();
+        });
+    
+        // Timer Panel
+        JPanel timerPanel = new JPanel(new BorderLayout());
+        timerPanel.setOpaque(false);
+    
+        JProgressBar timerBar = new JProgressBar(0, 10);
+        timerBar.setValue(10);
+        timerBar.setForeground(ACCENT_COLOR);
+        timerBar.setBackground(new Color(230, 230, 230));
+        timerBar.setBorderPainted(false);
+        timerBar.setStringPainted(false);
+        timerBar.setPreferredSize(new Dimension(0, 6));
+    
+        timerPanel.add(timerBar, BorderLayout.CENTER);
+    
+        // Center Container for Question + Options
+        JPanel centerContainer = new JPanel();
+        centerContainer.setLayout(new BoxLayout(centerContainer, BoxLayout.Y_AXIS));
+        centerContainer.setOpaque(false);
+        centerContainer.add(questionPanel);
+        centerContainer.add(optionsPanel);
+        centerContainer.add(Box.createRigidArea(new Dimension(0, 20)));
+        centerContainer.add(submitButton);
+    
+        // Add all panels to content
+        contentPanel.add(headerPanel, BorderLayout.NORTH);
+        contentPanel.add(centerContainer, BorderLayout.CENTER);
+        contentPanel.add(timerPanel, BorderLayout.SOUTH);
+    
+        frame.add(contentPanel, BorderLayout.CENTER);
+        frame.revalidate();
+        frame.repaint();
+    
+        // Timer logic
+        Timer timer = new Timer(1000, e -> {
+            int count = timerBar.getValue() - 1;
+            timerBar.setValue(count);
+            if (count == 0) {
+                ((Timer) e.getSource()).stop();
+                String selectedOption = group.getSelection() != null ? 
+                                     group.getSelection().getActionCommand() : "";
+                currentQuiz.submitAnswer(selectedOption);
+                currentQuiz.moveToNextQuestion();
+                showQuizQuestion();
+            }
+        });
+        timer.start();
     }
 
     private static void showQuizResult() {
