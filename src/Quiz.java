@@ -47,7 +47,7 @@ public class Quiz {
     }
     
     public double getScore() {
-        return (score / questions.size()) * 100; // Return as percentage
+        return score; // Return as percentage
     }
     
     public User getUser() {

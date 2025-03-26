@@ -423,14 +423,14 @@ public class TechQuizXPart {
         for (String option : question.getOptions()) {
             JRadioButton optionButton = createOptionButton(option);
             group.add(optionButton);
-            optionButton.setAlignmentX(Component.LEFT_ALIGNMENT);
+            optionButton.setAlignmentX(Component.CENTER_ALIGNMENT);
             optionsPanel.add(optionButton);
             optionsPanel.add(Box.createRigidArea(new Dimension(0, 10)));
         }
     
         // Submit Button
         JButton submitButton = createStyledButton("SUBMIT", PRIMARY_COLOR, 200, 40);
-        submitButton.setAlignmentX(Component.LEFT_ALIGNMENT);
+        submitButton.setAlignmentX(Component.CENTER_ALIGNMENT);
         submitButton.addActionListener(e -> {
             String selectedOption = group.getSelection() != null ? 
                                  group.getSelection().getActionCommand() : "";

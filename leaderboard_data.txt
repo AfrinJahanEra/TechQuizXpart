@@ -1,2 +1,7 @@
-Database Management Systems,Ridika Naznin,IUT,CSE,-83.33333333333334
-Database Management Systems,Afrin Jahan Era,IUT,CSE,-83.33333333333334
+Data Structures and Algorithms,Afrin Jahan Era,IUT,CSE,1.0
+Data Structures and Algorithms,Sharley,IUT,CSE,-0.5
+Data Structures and Algorithms,Era,cuet,CSE,-0.5
+Data Structures and Algorithms,Ridika Naznin,KUET,CSE,0.0
+Digital Electronics,aafa,afa,EEE,0.0
+Database Management Systems,ssdd,sdsd,CSE,-0.5
+Geology,sdsd,dsd,CE,0.0

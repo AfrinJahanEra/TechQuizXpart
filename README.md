@@ -1,6 +1,6 @@
 # TechQuizXPart - Elegant Quiz Application 🚀
 
-![App Screenshot](screenshot.png) <!-- Add a screenshot if available -->
+![App Screenshot](screenshot.png) 
 
 ## 🌟 Features
 
@@ -18,21 +18,6 @@
 - **Object-Oriented Design** following SOLID principles
 - **Modern UI Patterns** with cards, animations, and responsive layouts
 
-## 🖼️ Application Screenshots
-
-<div align="center">
-  <div>
-    <img src="Screenshot 2025-03-27 004315.png" width="45%" hspace="10" vspace="10">
-    <img src="Screenshot 2025-03-27 004338.png" width="45%" hspace="10" vspace="10">
-  </div>
-  <div>
-    <img src="Screenshot 2025-03-27 004350.png" width="45%" hspace="10" vspace="10">
-    <img src="Screenshot 2025-03-27 004546.png" width="45%" hspace="10" vspace="10">
-  </div>
-  <p>
-    <em>From left to right, top to bottom: Welcome Screen, Login Screen, Quiz Interface, Leaderboard</em>
-  </p>
-</div>
 
 ## 🚀 Getting Started
 
@@ -128,14 +113,33 @@ We welcome contributions! Here's how:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+
+### **Team Members**  
+
+- **Afrin Jahan Era**: [GitHub Profile](https://github.com/AfrinJahanEra)  
+- **Ridika Naznin**: [GitHub Profile](https://github.com/ridika-2004)  
+
+
+## 🖼️ Application Screenshots
+
+<div align="center">
+  <div>
+    <img src="Screenshot 2025-03-27 004315.png" width="45%" hspace="10" vspace="10">
+    <img src="Screenshot 2025-03-27 004338.png" width="45%" hspace="10" vspace="10">
+  </div>
+  <div>
+    <img src="Screenshot 2025-03-27 012401.png" width="45%" hspace="10" vspace="10">
+    <img src="Screenshot 2025-03-27 011831.png" width="45%" hspace="10" vspace="10">
+  </div>
+  <p>
+    <em>From left to right, top to bottom: Welcome Screen, Login Screen, Quiz Interface, Leaderboard</em>
+  </p>
+</div>
+
+
 ## 📜 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## ✉️ Contact
-
-
-Project Link: [https://github.com/yourusername/TechQuizXPart](https://github.com/yourusername/TechQuizXPart)
 
 ---
 
