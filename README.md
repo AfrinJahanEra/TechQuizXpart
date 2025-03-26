@@ -1,6 +1,6 @@
 # TechQuizXPart - Elegant Quiz Application 🚀
 
-![App Screenshot](assets\screenshot.png) 
+![App Screenshot](screenshot.png) 
 
 ## 🌟 Features
 
