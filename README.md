@@ -1,6 +1,6 @@
 # TechQuizXPart - Elegant Quiz Application 🚀
 
-![App Screenshot](screenshot.png) 
+![App Screenshot](assets\screenshot.png) 
 
 ## 🌟 Features
 
@@ -124,12 +124,12 @@ We welcome contributions! Here's how:
 
 <div align="center">
   <div>
-    <img src="Screenshot 2025-03-27 004315.png" width="45%" hspace="10" vspace="10">
-    <img src="Screenshot 2025-03-27 004338.png" width="45%" hspace="10" vspace="10">
+    <img src="assets\Screenshot 2025-03-27 004315.png" width="45%" hspace="10" vspace="10">
+    <img src="assets\Screenshot 2025-03-27 004338.png" width="45%" hspace="10" vspace="10">
   </div>
   <div>
-    <img src="Screenshot 2025-03-27 012401.png" width="45%" hspace="10" vspace="10">
-    <img src="Screenshot 2025-03-27 011831.png" width="45%" hspace="10" vspace="10">
+    <img src="assets\Screenshot 2025-03-27 012401.png" width="45%" hspace="10" vspace="10">
+    <img src="assets\Screenshot 2025-03-27 011831.png" width="45%" hspace="10" vspace="10">
   </div>
   <p>
     <em>From left to right, top to bottom: Welcome Screen, Login Screen, Quiz Interface, Leaderboard</em>
