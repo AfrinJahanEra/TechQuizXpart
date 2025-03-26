@@ -1,0 +1,18 @@
+Which law of thermodynamics states that energy cannot be created or destroyed?|Zeroth Law|First Law|Second Law|Third Law|First Law|Thermodynamics 
+What is the SI unit of entropy?|Joule|Watt|Joule/Kelvin|Pascal|Joule/Kelvin|Thermodynamics  
+Which heat transfer mode does not require a medium?|Conduction|Convection|Radiation|Advection|Radiation|Heat Transfer  
+What is the efficiency of a Carnot engine dependent on?|Working fluid|Temperature limits|Engine size|Pressure ratio|Temperature limits|Thermodynamics  
+Which principle explains hydraulic lifts and brakes?|Bernoulli's Principle|Pascal's Law|Archimedes' Principle|Stokes' Law|Pascal's Law|Fluid Mechanics  
+What type of flow is characterized by smooth, parallel layers?|Turbulent|Laminar|Transitional|Compressible|Laminar|Fluid Mechanics  
+Which dimensionless number relates inertial forces to viscous forces?|Reynolds Number|Mach Number|Froude Number|Weber Number|Reynolds Number|Fluid Mechanics  
+What is the point called where the entire weight of a body is assumed to act?|Elastic Limit|Neutral Axis|Center of Gravity|Shear Center|Center of Gravity|Strength of Materials  
+Which stress is caused by a twisting moment?|Tensile Stress|Compressive Stress|Shear Stress|Bending Stress|Shear Stress|Strength of Materials  
+What is the ratio of stress to strain in the elastic region called?|Stiffness|Modulus of Elasticity|Poisson's Ratio|Toughness|Modulus of Elasticity|Strength of Materials  
+Which casting process uses a wax pattern?|Sand Casting|Investment Casting|Die Casting|Centrifugal Casting|Investment Casting|Manufacturing  
+What is the machining process that uses an abrasive wheel?|Milling|Turning|Grinding|Drilling|Grinding|Manufacturing  
+Which welding process uses a consumable electrode coated in flux?|TIG Welding|MIG Welding|Arc Welding|Gas Welding|Arc Welding|Manufacturing  
+Which gear is used to connect parallel shafts?|Bevel Gear|Worm Gear|Spur Gear|Helical Gear|Spur Gear|Machine Design  
+What is the purpose of a flywheel in an engine?|Store energy|Increase speed|Reduce friction|Cool the engine|Store energy|Theory of Machines  
+Which mechanism converts rotary motion to linear motion?|Gear Train|Cam and Follower|Four-Bar Linkage|Universal Joint|Cam and Follower|Theory of Machines  
+What is the function of a carburetor in an IC engine?|Filter air|Mix air and fuel|Cool the engine|Lubricate parts|Mix air and fuel|Automobile Engineering  
+Which engine has the highest thermal efficiency?|Petrol Engine|Diesel Engine|Steam Engine|Gas Turbine|Diesel Engine|Automobile Engineering  

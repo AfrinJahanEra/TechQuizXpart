@@ -1,4 +1,5 @@
-package ProjectCode;
+package src;
+
 
 public class Question {
     private String question;
@@ -21,12 +22,15 @@ public class Question {
         return options;
     }
 
-    public boolean isCorrect(String answer) {
-        return correctAnswer.equals(answer);
+    public String getCorrectAnswer() {
+        return correctAnswer;
     }
 
     public Subject getSubject() {
         return subject;
     }
-}
 
+    public boolean isCorrect(String answer) {
+        return correctAnswer.equals(answer);
+    }
+}

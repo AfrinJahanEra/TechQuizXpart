@@ -1,9 +1,12 @@
-package ProjectCode;
+package src;
 
 public enum Subject {
     OOP("Object Oriented Programming"),
     DSA("Data Structures and Algorithms"),
     AI("Artificial Intelligence"),
+    Database_Management_Systems("Database Management Systems"),
+    Operating_Systems("Operating Systems"),
+    Computer_Networks("Computer Networks"),
     ELECTRICAL_CIRCUIT("Electrical Circuit"),
     POWER_SYSTEM("Power System"),
     DLD("Digital Logic Design"),

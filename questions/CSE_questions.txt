@@ -1,0 +1,14 @@
+What is the main principle of OOP that allows objects to share behavior and attributes based on their class?|Inheritance|Encapsulation|Polymorphism|Abstraction|Abstraction|Object Oriented Programming
+Which data structure uses LIFO (Last-In-First-Out) principle?|Queue|Stack|Array|Linked List|Stack|Data Structures and Algorithms 
+Which OOP concept binds data and functions together, restricting direct access to some components?|Inheritance|Encapsulation|Polymorphism|Abstraction|Encapsulation|Object Oriented Programming  
+What allows a function or method to behave differently based on the object calling it?|Inheritance|Polymorphism|Abstraction|Encapsulation|Polymorphism|Object Oriented Programming  Which keyword is used to inherit a class in C++?|`implements`|`extends`|`iits`|`:`|`:`|Object Oriented Programming  What is the process of hiding complex implementation details and showing only essential features?|Encapsulation|Polymorphism|Abstraction|Inheritance|Abstraction|Object Oriented Programming  
+Which data structure follows FIFO (First-In-First-Out) principle?|Stack|Queue|Heap|Tree|Queue|Data Structures and Algorithms  What is the time complexity of a binary search algorithm on a sorted array?|O(1)|O(log n)|O(n)|O(n²)|O(log n)|Data Structures and Algorithms  Which sorting algorithm has the worst-case time complexity of O(n²)?|Merge Sort|Quick Sort|Bubble Sort|Heap Sort|Bubble Sort|Data Structures and Algorithms  What is the main advantage of a linked list over an array?|Faster access time|Fixed size|Dynamic size|Lower memory usage|Dynamic size|Data Structures and Algorithms  
+What is the scheduling algorithm that executes the process with the shortest burst time first?|FCFS|Round Robin|SJF (Shortest Job First)|Priority Scheduling|SJF (Shortest Job First)|Operating Systems  
+Which OS component manages memory allocation and deallocation?|CPU Scheduler|Memory Manager|File System|I/O Manager|Memory Manager|Operating Systems  
+What is a deadlock situation in an operating system?|High CPU usage|Process waiting indefinitely|Memory leak|Disk fragmentation|Process waiting indefinitely|Operating Systems   
+Which SQL command is used to remove a table from a database?|DELETE|DROP|REMOVE|TRUNCATE|DROP|Database Management Systems  
+What ensures that database transactions are processed reliably?|ACID properties|Normalization|Indexing|Partitioning|ACID properties|Database Management Systems  
+Which normal form eliminates partial dependencies?|1NF|2NF|3NF|BCNF|2NF|Database Management Systems  
+Which protocol is used for secure communication over a network?|HTTP|FTP|HTTPS|SMTP|HTTPS|Computer Networks  
+What is the purpose of an IP address?|Identify a website|Identify a device on a network|Encrypt data|Store files|Identify a device on a network|Computer Networks  
+Which layer of the OSI model is responsible for routing and forwarding?|Physical|Data Link|Network|Transport|Network|Computer Networks  

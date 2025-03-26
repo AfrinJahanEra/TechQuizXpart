@@ -1,0 +1,16 @@
+Which type of rock forms from the solidification of molten magma?|Sedimentary|Metamorphic|Igneous|None of these|Igneous|Geology
+What is the primary constituent of Portland cement?|Gypsum|Limestone|Clay|Sand|Limestone|Building Materials  
+Which test determines the hardness of a construction aggregate?|Compression Test|Abrasion Test|Impact Test|Soundness Test|Abrasion Test|Building Materials  
+Which mineral gives cement its binding property?|Silica|Alumina|Tricalcium Silicate (C3S)|Gypsum|Tricalcium Silicate (C3S)|Building Materials   
+What is the bending stress in a beam called?|Shear Stress|Torsional Stress|Bending Moment|Flexural Stress|Flexural Stress|Structural Engineering  
+Which type of beam has fixed supports at both ends?|Simply Supported Beam|Cantilever Beam|Overhanging Beam|Fixed Beam|Fixed Beam|Structural Engineering  
+What does the term "slump" measure in concrete?|Compressive Strength|Workability|Durability|Setting Time|Workability|Concrete Technology  
+Which soil has the highest permeability?|Clay|Silt|Sand|Gravel|Gravel|Soil Mechanics  
+What is the bearing capacity of soil dependent on?|Shear Strength|Elasticity|Porosity|Color|Shear Strength|Foundation Engineering  
+Which foundation is used for weak soil with high water tables?|Spread Footing|Pile Foundation|Raft Foundation|Mat Foundation|Pile Foundation|Foundation Engineering  
+What is the most common type of pavement for highways?|Gravel Road|Rigid Pavement|Flexible Pavement|Composite Pavement|Flexible Pavement|Transportation Engineering  
+Which instrument measures horizontal and vertical angles in surveying?|Theodolite|Dumpy Level|Planimeter|Chaining Tape|Theodolite|Surveying  
+The camber in a road is provided for:|Drainage|Aesthetics|Speed Control|Reducing Construction Cost|Drainage|Transportation Engineering  
+Which process removes suspended solids from wastewater?|Sedimentation|Chlorination|Aeration|Filtration|Sedimentation|Environmental Engineering  
+The most common method for disinfection of drinking water is:|Boiling|UV Treatment|Chlorination|Ozonation|Chlorination|Water Supply Engineering  
+Which type of dam relies on its weight to resist water pressure?|Gravity Dam|Arch Dam|Buttress Dam|Embankment Dam|Gravity Dam|Hydraulics  

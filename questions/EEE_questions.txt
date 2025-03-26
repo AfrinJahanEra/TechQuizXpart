@@ -1,0 +1,16 @@
+What is the unit of electrical power?|Ampere|Volt|Watt|Ohm|Watt|Power System
+Which law states that current is directly proportional to voltage and inversely proportional to resistance?|Faraday's Law|Lenz's Law|Ohm's Law|Kirchhoff's Law|Ohm's Law|Circuit Theory  
+What is the SI unit of electrical resistance?|Volt|Ampere|Ohm|Watt|Ohm|Circuit Theory  
+Which device converts mechanical energy into electrical energy?|Motor|Generator|Transformer|Rectifier|Generator|Electrical Machines  
+Which type of power plant has the highest efficiency?|Thermal|Hydroelectric|Nuclear|Solar|Nuclear|Power Generation  
+What is the primary fuel used in a gas turbine power plant?|Coal|Natural Gas|Diesel|Uranium|Natural Gas|Power Generation  
+Which transmission line parameter affects voltage regulation?|Resistance|Inductance|Capacitance|All of these|All of these|Power Transmission  
+Which component stores energy in an electric field?|Resistor|Inductor|Capacitor|Diode|Capacitor|Electronic Devices  
+What is the function of a rectifier?|Convert AC to DC|Convert DC to AC|Amplify voltage|Filter noise|Convert AC to DC|Power Electronics  
+Which logic gate gives an output of 1 only if all inputs are 1?|OR|AND|NOT|XOR|AND|Digital Electronics  
+What is the time taken for the system's output to reach 63.2% of its final value called?|Rise Time|Peak Time|Settling Time|Time Constant|Time Constant|Control Systems  
+Which instrument measures electric current?|Voltmeter|Ammeter|Ohmmeter|Wattmeter|Ammeter|Electrical Measurements   
+Which renewable energy source uses photovoltaic cells?|Wind|Solar|Hydro|Biomass|Solar|Renewable Energy  
+What is the main component in an inverter?|Transformer|Transistor|Capacitor|Diode|Transistor|Power Electronics  
+What type of motor is commonly used in ceiling fans?|DC Shunt Motor|Induction Motor|Synchronous Motor|Stepper Motor|Induction Motor|Electrical Machines  
+Which loss in a transformer occurs due to alternating magnetic flux?|Copper Loss|Hysteresis Loss|Eddy Current Loss|Both B & C|Both B & C|Transformers  
