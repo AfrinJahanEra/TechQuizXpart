@@ -58,8 +58,7 @@ TechQuizXPart/
 │   │   └── User.java
 │   └── ui/                  # Beautiful Swing interface
 │       └── TechQuizXPart.java
-├── icon.png                 # Application icon
-
+├── assets/                  # pictures
 ```
 
 ## 🎨 UI Design Highlights
