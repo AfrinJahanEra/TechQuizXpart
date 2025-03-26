@@ -130,9 +130,7 @@ We welcome contributions! Here's how:
     <img src="assets\Screenshot 2025-03-27 012401.png" width="45%" hspace="10" vspace="10">
     <img src="assets\Screenshot 2025-03-27 011831.png" width="45%" hspace="10" vspace="10">
   </div>
-  <p>
-    <em>From left to right, top to bottom: Welcome Screen, Login Screen, Quiz Interface, Leaderboard</em>
-  </p>
+
 </div>
 
 
