@@ -18,6 +18,22 @@
 - **Object-Oriented Design** following SOLID principles
 - **Modern UI Patterns** with cards, animations, and responsive layouts
 
+## 🖼️ Application Screenshots
+
+<div align="center">
+  <div>
+    <img src="Screenshot 2025-03-27 004315.png" width="45%" hspace="10" vspace="10">
+    <img src="Screenshot 2025-03-27 004338.png" width="45%" hspace="10" vspace="10">
+  </div>
+  <div>
+    <img src="Screenshot 2025-03-27 004350.png" width="45%" hspace="10" vspace="10">
+    <img src="Screenshot 2025-03-27 004546.png" width="45%" hspace="10" vspace="10">
+  </div>
+  <p>
+    <em>From left to right, top to bottom: Welcome Screen, Login Screen, Quiz Interface, Leaderboard</em>
+  </p>
+</div>
+
 ## 🚀 Getting Started
 
 ### Prerequisites
